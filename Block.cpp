@@ -1,6 +1,4 @@
-#define _SCL_SECURE_NO_WARNINGS
 #include "Block.h"
-#include <algorithm>
 #include <SFML/Graphics/RectangleShape.hpp>
 
 namespace te

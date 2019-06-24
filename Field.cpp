@@ -1,9 +1,6 @@
 #include "Field.h"
 #include <vector>
-#include <SFML/OpenGL.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
-
-#pragma comment(lib, "opengl32.lib")
 
 namespace te
 {
@@ -43,7 +40,6 @@ namespace te
 		grid.setPrimitiveType(sf::PrimitiveType::Lines);
 		grid.update(verts.data(), verts.size(), 0);
 	
-		glLineWidth(2.0f);
 	}
 	void Field::SetPosition(int x, int y)
 	{
